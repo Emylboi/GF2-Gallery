@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GALLERI</title>
+
+    <!-- CSS -->
+    <!--     <link rel="stylesheet" href="css/modal1.css"> -->
+    <link rel="stylesheet" href="css/styles1.css" />
+
+    <!-- JS -->
+    <script src="js/gallery1.js" defer></script>
+    <script src="js/modal1.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/d98c3039df.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <div class="header">
+        <h1>GALLERI1</h1>
+        <hr />
+        <p>Animals</p>
+      </div>
+
+      <!-- Galleri Grid -->
+      <div class="bigimg">
+        <img
+          id="bigimg"
+          src="https://source.unsplash.com/random/1500x1500/?fennec"
+        />
+      </div>
+      <button class="refresh" onclick="refresh()">
+        <i class="btn-refresh fa-solid fa-rotate"></i>
+      </button>
+      <div class="gallery-wrapper" id="gallery-wrapper">
+        <!-- Her indsættes billederne via JS'en -->
+      </div>
+
+      <!-- MODAL -->
+      <div id="modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="img-modal-wrapper">
+            <img id="modal-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Wrapper slut -->
+  </body>
+</html>
+
+<!-- 
+<div class="row"> 
+    <div class="column">
+    <img src="img/img1.jpg" class="img">
+        <img src="img/img2.jpg" class="img">
+        <img src="img/img3.jpg" class="img">
+    </div>
+  
+    <div class="column">
+        <img src="img/img3.jpg" class="img">
+        <img src="img/img1.jpg" class="img">
+        <img src="img/img2.jpg" class="img">
+    </div> 
+    
+    <div class="column">
+        <img src="img/img2.jpg" class="img">
+        <img src="img/img1.jpg" class="img">
+        <img src="img/img3.jpg" class="img">
+    </div>
+    
+    <div class="column">
+        <img src="img/img3.jpg" class="img">
+        <img src="img/img2.jpg" class="img">
+        <img src="img/img1.jpg" class="img">
+    </div>
+</div>
+ -->
